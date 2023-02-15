@@ -28,16 +28,19 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  
+from{}
+
+  to { transform:translateY(32px) rotate(45deg)}
 }
 
 @keyframes middle {
   from {}
-  to {}
+  to {background-color:mediumvioletred ;}
 }
+
 
 @keyframes bottom {
   from {}
-  to {}
+  to {transform:translateY(-33px) rotate(-45deg)}
 }
